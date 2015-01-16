@@ -5,5 +5,5 @@ import (
 )
 
 func Out() string {
-	return "A: " + uuid.NewRandom().String()
+	return "B: " + uuid.NewRandom().String()
 }
